@@ -1,0 +1,24 @@
+.filterbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters{
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.reset_filter{
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 700;
+}

@@ -1,0 +1,29 @@
+.no_results {
+    text-align: center;
+    padding: 40px 20px;
+    color: #555;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .no_results__image {
+    width: 120px;
+    height: auto;
+    opacity: 0.5;
+    margin-bottom: 20px;
+  }
+  
+  .no_results h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .no_results p {
+    font-size: 16px;
+    color: #777;
+    font-weight: bold;
+  }
+  
