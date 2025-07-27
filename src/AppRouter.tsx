@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Layout from './components/Layout/Layout';
-const NotFound = () => <div>404 - Not Found</div>;
+import NotFound from 'components/NotFound/NotFound';
 
 const AppRouter = () => {
   return (
